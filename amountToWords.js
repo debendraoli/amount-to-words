@@ -1,3 +1,8 @@
+/*
+* @author github.com/debendraoli
+* You are not allowed to remove credit author.
+*/
+
 function amountInWords(amount, currencyName='Rupee') {
     var amount_string = amount.toString(); // convert number to string
     if (amount % 1 === 0) amount_string += '.00'; // check and append .00 for non floating number.
